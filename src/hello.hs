@@ -7,18 +7,18 @@ myhtml :: Html
 myhtml =
   html_
     "My title"
-    ( append_
-      (h1_ "Heading")
-      ( append_
-        (ul_
+    ( 
+      h1_ "Heading" <>
+      ( 
+        ul_
         [ p_ "item 1"
         , p_ "item 2"
         , p_ "item 3"
-        ])
-        (ol_
+        ] <>
+        ol_
         [ p_ "item 1"
         , p_ "item 2"
         , p_ "item 3"
-        ])
+        ]
       )
     )

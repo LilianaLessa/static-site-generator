@@ -18,4 +18,4 @@ data Structure
   | UnorderedList [String]
   | OrderedList [String]
   | CodeBlock [String]
-  
+  deriving Show
