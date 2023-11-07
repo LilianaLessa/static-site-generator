@@ -17,9 +17,3 @@ even n =
 
 odd :: Int -> Bool
 odd n = (n /= 0) && even (n - 1)
-
-
-
-
-
-
